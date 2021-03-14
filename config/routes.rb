@@ -11,4 +11,5 @@ Rails.application.routes.draw do
   post 'login'=>'sessions#create'
   get 'logout'=>'sessions#destroy'
   get 'edit'=>'users#edit'
+  get 'users'=>'users#index'
 end
